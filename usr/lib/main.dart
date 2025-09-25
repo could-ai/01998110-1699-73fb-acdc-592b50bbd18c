@@ -366,7 +366,7 @@ class _RegistrationFormState extends State<RegistrationForm> {
                 decoration: const InputDecoration(
                   labelText: 'Pilihan Program Studi 2',
                   border: OutlineInputBorder(),
-                  prefixIcon: Icon(Icons.class__outlined),
+                  prefixIcon: Icon(Icons.class_outlined),
                 ),
                 items: _listProdi.map((String value) {
                   return DropdownMenuItem<String>(
